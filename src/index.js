@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import Library from "./chapter_03/Library";
 import Clock from "./chapter_04/clock";
 import CommentList from "./chapter_05/CommentList";
+import StateExample from "./03/StateExample";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -20,7 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <StateExample/>
   </React.StrictMode>
 );
 
